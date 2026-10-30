@@ -34,9 +34,15 @@ h2 {
     padding: 10px;
 }
 
-a{
-    text-align: center;
-    border: 2px #DC143C;
+a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+    border: 2px solid #DC143C;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 0 auto;
+	width: max-content;
 }
 
 a:hover {
