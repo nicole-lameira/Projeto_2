@@ -1,20 +1,16 @@
-
 body {
     background-color: #000000;
+    color: #FFFFFF;
     font-family: Arial, sans-serif;
     margin: 35px;
 }
 
-p, h1 {
-	color: #FFFFFF !important;
-}
-
 h1 {
-    background-color: #000000;
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
     border-bottom: 3px solid #DC143C;
+    letter-spacing: 2px;
 }
 
 img {
@@ -35,7 +31,7 @@ h2 {
 
 a {
     font-weight: bold;
-	text-decoration: none;
+text-decoration: none;
 }
 
 a:hover {
@@ -43,7 +39,6 @@ a:hover {
 }
 
 li h3 {
-    color: #FF8C00;
     font-weight: bold;
     font-family: Arial, sans-serif;
     font-size: 22px;
@@ -65,7 +60,11 @@ li h3 {
     border-left: 3px solid #FF8C00;
 }
 
-.seg, #ter {
+#prim h3 {
+color: #FF8C00;
+}
+
+#ter {
     color: #FFFFFF;
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -74,7 +73,26 @@ li h3 {
     margin-bottom: 15px;
     text-align: left;
     width: 70%;
-    border-left: 3px solid #FF8C00;
+    border-left: 3px solid #FFC0CB;
+}
+
+#ter h3 {
+color: #FFC0CB;
+}
+
+.seg {
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 70%;
+    border-left: 3px solid #00FFFF;
+}
+
+.seg h3 {
+color: #00FFFF;
 }
 
 ul {
@@ -84,20 +102,10 @@ ul {
 figure {
     text-align: center;
     margin: 30px auto;
-	background-image: url('background.jpg');
+background-image: url('background.jpg');
 }
 
 figcaption {
     color: #FF8C00;
     font-size: 18px;
-}
- 
-body > a {
-    display: block;
-    text-align: center;
-    width: fit-content;
-    margin: 25px auto;
-    padding: 12px 25px;
-    border: 2px solid #DC143C;
-    border-radius: 6px;
 }
