@@ -2,36 +2,33 @@ body {
     background-color: #000000;
     color: #FFFFFF;
     font-family: Arial, sans-serif;
-    margin: 35px;
+    padding: 20px;
+}
+
+p, h1 { color: #FFFFFF !important; 
 }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    padding: 15px;
     border-bottom: 3px solid #DC143C;
-    letter-spacing: 2px;
+    padding: 7px;
+    font-weight: bold;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
+    text-align: center;
+    margin: 30px auto;
 }
 
 h2, a {
     color: #DC143C;
+    font-weight: bold;
 }
 
 h2 {
     border-left: 4px solid #DC143C;
-    padding-left: 10px;
-}
-
-a {
-    font-weight: bold;
-text-decoration: none;
+    padding: 10px;
 }
 
 a:hover {
@@ -40,59 +37,26 @@ a:hover {
 
 li h3 {
     font-weight: bold;
-    font-family: Arial, sans-serif;
-    font-size: 22px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+li {
+    padding: 15px;
+    margin: 10px;
     text-align: left;
-    width: 100%;
-    margin-bottom: 10px;
+    width: 70%;    
 }
 
 #prim {
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 15px;
-    margin-bottom: 15px;
-    text-align: left;
-    width: 70%;
-    border-left: 3px solid #FF8C00;
-}
-
-#prim h3 {
-color: #FF8C00;
+    color: #FF8C00;
 }
 
 #ter {
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 15px;
-    margin-bottom: 15px;
-    text-align: left;
-    width: 70%;
-    border-left: 3px solid #FFC0CB;
-}
-
-#ter h3 {
-color: #FFC0CB;
+    color: #FFC0CB;
 }
 
 .seg {
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    padding: 15px;
-    margin-bottom: 15px;
-    text-align: left;
-    width: 70%;
-    border-left: 3px solid #00FFFF;
-}
-
-.seg h3 {
-color: #00FFFF;
+    color: #00FFFF;
 }
 
 ul {
@@ -102,10 +66,9 @@ ul {
 figure {
     text-align: center;
     margin: 30px auto;
-background-image: url('background.jpg');
+    background-image: url('background.jpg');
 }
 
 figcaption {
     color: #FF8C00;
-    font-size: 18px;
 }
