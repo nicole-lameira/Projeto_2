@@ -55,63 +55,79 @@ a {
 li h3 {
     font-weight: bold;
     padding: 10px;
-	border-radius: 10px;
 	color: #FFFFFF;
 	text-align: center;
+	border-radius: 10px;
 }
 
 li {
     padding: 15px;
     margin: 10px;
     text-align: left;
-    width: 70%;    
+    width: 100%;  
+    box-sizing: border-box;	
 }
 
 #prim {
-	position: relative;
-	left: 0%;
+    float: left;
+    width: 30%;
 }
 
 #prim h3 {
+	color: #FF8C00;
 	background-color: #000000;
     border: 2px solid #FF8C00;
 }
 
 #ter {
-	position: relative;
-	left: 5%;
+    float: left;
+    width: 30%;
 }
 
 #ter h3 {
+	color: #FF69B4;
 	background-color: #000000;
     border: 2px solid #FF69B4;
 }
 
 .seg {
-	position: relative;
-	left: 2%;
+    float: left;
+    width: 30%;
 }
 
 .seg h3{
+	color: #00FFFF;
 	background-color: #000000;
     border: 2px solid #00FFFF;
 }
 
 ul {
-    padding-left: 25px;
+    padding-left: 0;
 	list-style-type: none;
-	position: relative;
-	display: flex;
-    justify-content: space-between;
 }
 
 figure {
 	display: block;
+	clear: both;
     width: 90%;
 	text-align: center;
     margin: 30px auto;
     background-image: url('background.jpg');
 }
+
+figcaption {
+    color: #FF8C00;
+}
+
+/*1. Desafio Técnico:
+A regra mais difícil de aplicar foi provavelmente... 
+transformar as imagens em blocks(demorei muito a perceber que não conseguia centrá-las por elas serem meio inlines);
+conseguir pôr as div's e class lado a lado (falhei muito com "position: relative;" mas lá optei por float, e mesmo assim tive que ir aorender "box-sizing: border-box;" para funcionar);
+o anchor também (não estava a perceber como centrá-lo até que enfim o transformei num block).
+2. Correção de Sintaxe:
+não escrevi nada que não tenha funcionado, mas às vezes falataram-me usn espaços ou uns pontos e vírgulas.
+3. Eu usei o href,que serve para o html saber para onde quero que se vá quando se carrega no link. Ou seja, o href diz qual é a finalidade do link.
+*/
 
 figcaption {
     color: #FF8C00;
