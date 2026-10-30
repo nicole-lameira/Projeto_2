@@ -18,6 +18,8 @@ h1 {
 }
 
 #logo {
+    display: block;
+    width: 100%;
     text-align: center;
     margin: 30px auto;
 }
@@ -65,6 +67,8 @@ ul {
 }
 
 figure {
+    display: block;
+    width: 100%;
     text-align: center;
     margin: 30px auto;
     background-image: url('background.jpg');
