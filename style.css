@@ -34,6 +34,11 @@ h2 {
     padding: 10px;
 }
 
+a{
+    text-align: center;
+    border: 2px #DC143C;
+}
+
 a:hover {
     color: #3CB371;
 }
