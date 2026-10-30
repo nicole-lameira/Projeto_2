@@ -6,6 +6,10 @@ body {
     margin: 35px;
 }
 
+p {
+	color: #FFFFFF !important;
+}
+
 h1 {
     background-color: #000000;
     color: #FFFFFF;
