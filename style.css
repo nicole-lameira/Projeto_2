@@ -46,11 +46,18 @@ a {
 	text-decoration: none;
 	margin: 0 auto;
 	width: max-content;
+	position: fixed;
+	bottom: 0;
+	right: 45%;
+	background-color: #000000;
 }
 
 li h3 {
     font-weight: bold;
-    padding-bottom: 10px;
+    padding: 10px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 li {
@@ -61,21 +68,41 @@ li {
 }
 
 #prim {
-    color: #FF8C00;
+	position: relative;
+	left: 0%;
+}
+
+#prim h3 {
+	background-color: #000000;
+    border: 2px solid #FF8C00;
 }
 
 #ter {
-    color: #FF69B4;
+	position: relative;
+	left: 5%;
+}
+
+#ter h3 {
+	background-color: #000000;
+    border: 2px solid #FF69B4;
 }
 
 .seg {
-    color: #00FFFF;
+	position: relative;
+	left: 2%;
+}
+
+.seg h3{
+	background-color: #000000;
+    border: 2px solid #00FFFF;
 }
 
 ul {
     padding-left: 25px;
 	list-style-type: none;
-	display: inline;
+	position: relative;
+	display: flex;
+    justify-content: space-between;
 }
 
 figure {
